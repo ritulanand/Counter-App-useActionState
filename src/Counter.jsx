@@ -3,7 +3,7 @@ import { useActionState } from "react";
 function CounterApp() {
   // Step 1: Define the update function for useActionState
   function updateCount(prevCount, actionOrFormData) {
-    // TODO: Handle different action types to update the count
+    // Handle different action types to update the count
     if(actionOrFormData instanceof FormData) {
           // If it's a FormData, we need to extract the value
           actionOrFormData = {
